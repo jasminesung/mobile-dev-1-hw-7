@@ -35,7 +35,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("selected" + String(indexPath.row))
         currentSong = songs[indexPath.row]
         self.performSegue(withIdentifier: "toDetail", sender: self)
     }
