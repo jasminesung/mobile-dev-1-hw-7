@@ -16,6 +16,8 @@
 		E14EA9732B8BB8D4006AEC46 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EA9722B8BB8D4006AEC46 /* TableViewTests.swift */; };
 		E14EA97D2B8BB8D4006AEC46 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EA97C2B8BB8D4006AEC46 /* TableViewUITests.swift */; };
 		E14EA97F2B8BB8D4006AEC46 /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EA97E2B8BB8D4006AEC46 /* TableViewUITestsLaunchTests.swift */; };
+		E14EA98D2B8BC2A5006AEC46 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EA98C2B8BC2A5006AEC46 /* Song.swift */; };
+		E14EA98F2B8BC847006AEC46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EA98E2B8BC847006AEC46 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E14EA9782B8BB8D4006AEC46 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14EA97C2B8BB8D4006AEC46 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		E14EA97E2B8BB8D4006AEC46 /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E14EA98C2B8BC2A5006AEC46 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E14EA98E2B8BC847006AEC46 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,14 @@
 		E14EA95A2B8BB8D3006AEC46 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				E14EA98B2B8BC28E006AEC46 /* Model */,
 				E14EA95B2B8BB8D3006AEC46 /* AppDelegate.swift */,
 				E14EA95D2B8BB8D3006AEC46 /* SceneDelegate.swift */,
-				E14EA95F2B8BB8D3006AEC46 /* ViewController.swift */,
 				E14EA9612B8BB8D3006AEC46 /* Main.storyboard */,
 				E14EA9642B8BB8D4006AEC46 /* Assets.xcassets */,
 				E14EA9662B8BB8D4006AEC46 /* LaunchScreen.storyboard */,
 				E14EA9692B8BB8D4006AEC46 /* Info.plist */,
+				E14EA9902B8BCEA0006AEC46 /* View */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -125,6 +130,23 @@
 				E14EA97E2B8BB8D4006AEC46 /* TableViewUITestsLaunchTests.swift */,
 			);
 			path = TableViewUITests;
+			sourceTree = "<group>";
+		};
+		E14EA98B2B8BC28E006AEC46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E14EA98C2B8BC2A5006AEC46 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E14EA9902B8BCEA0006AEC46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E14EA95F2B8BB8D3006AEC46 /* ViewController.swift */,
+				E14EA98E2B8BC847006AEC46 /* DetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14EA98D2B8BC2A5006AEC46 /* Song.swift in Sources */,
 				E14EA9602B8BB8D3006AEC46 /* ViewController.swift in Sources */,
+				E14EA98F2B8BC847006AEC46 /* DetailViewController.swift in Sources */,
 				E14EA95C2B8BB8D3006AEC46 /* AppDelegate.swift in Sources */,
 				E14EA95E2B8BB8D3006AEC46 /* SceneDelegate.swift in Sources */,
 			);
